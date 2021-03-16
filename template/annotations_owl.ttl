@@ -1,0 +1,24 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl>
+  rdf:type owl:Ontology ;
+  dc:description "Extension ontology for the Pathogen Host Interactions Phenotype Ontology (PHIPO), providing extra terms needed for curation."^^xsd:string ;
+  dc:title "Pathogen Host Interactions Phenotype Ontology Extensions"^^xsd:string ;
+  terms:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+  oboInOwl:created_by "alaynecuzick"^^xsd:string ;
+  oboInOwl:creation_date "2018-07-09T13:43:00Z"^^xsd:string .
+
+dc:description rdf:type owl:AnnotationProperty .
+dc:title rdf:type owl:AnnotationProperty .
+terms:license rdf:type owl:AnnotationProperty .
+oboInOwl:created_by rdf:type owl:AnnotationProperty .
+oboInOwl:creation_date rdf:type owl:AnnotationProperty .
