@@ -615,7 +615,8 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000037</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, recognizable pathogen necrotrophic effector present, host susceptibility locus present</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen necrotrophic effector present, host susceptibility locus present</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -641,7 +642,8 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-29T15:35:41Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000039</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, gain of recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, gain of recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -719,6 +721,20 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-03T14:26:03Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000045</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, compromised recognizable pathogen effector, functional host resistance gene present</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000046 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000046">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where either the gene-for-gene or inverse gene-for-gene relationship between the pathogen and plant host cannot be accurately recorded as the outcome is due to an external condition such as a change in temperature or light exposure.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-29T14:28:01Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000046</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metagenotype outcome overcome by external condition</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
