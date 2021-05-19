@@ -187,64 +187,71 @@ creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000020
-name: incompatible interaction, recognizable pathogen effector present, compromised host resistance gene
+name: obsolete incompatible interaction, recognizable pathogen effector present, compromised host resistance gene
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent)." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000021
-name: incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene present
+name: obsolete incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene present
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to produce an infectious disease is abolished and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000022
-name: incompatible interaction, recognizable pathogen effector present, functional host resistance gene absent
+name: obsolete incompatible interaction, recognizable pathogen effector present, functional host resistance gene absent
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000023
-name: incompatible interaction, gain of recognizable pathogen effector, functional host resistance gene absent
+name: obsolete incompatible interaction, gain of recognizable pathogen effector, functional host resistance gene absent
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000024
-name: incompatible interaction, recognizable pathogen effector absent, functional host resistance gene present
+name: obsolete incompatible interaction, recognizable pathogen effector absent, functional host resistance gene present
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000025
-name: incompatible interaction, recognizable pathogen effector absent, functional host resistance gene absent
+name: obsolete incompatible interaction, recognizable pathogen effector absent, functional host resistance gene absent
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000026
-name: incompatible interaction, recognizable pathogen effector absent, gain of functional host resistance gene
+name: obsolete incompatible interaction, recognizable pathogen effector absent, gain of functional host resistance gene
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present)." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
@@ -259,10 +266,11 @@ creation_date: 2020-11-11T12:59:19Z
 
 [Term]
 id: PHIPO_EXT:0000028
-name: incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene absent
+name: obsolete incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene absent
 def: "A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent." []
 subset: qc_extension_only
 is_a: PHIPO_EXT:0000001 ! gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2020-11-11T12:59:19Z
 
