@@ -345,7 +345,7 @@ creation_date: 2021-01-27T15:44:11Z
 id: PHIPO_EXT:0000038
 name: compatible interaction, compromised recognizable pathogen necrotrophic effector, host susceptibility locus present
 def: "A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is abolished (recognition was present and is now absent). The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present." []
-is_a: PHIPO_EXT:0000040 ! inverse gene-for-gene interaction phenotype
+is_obsolete: true
 created_by: alaynecuzick
 creation_date: 2021-01-29T15:35:41Z
 
