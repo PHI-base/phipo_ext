@@ -516,7 +516,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000030</oboInOwl:id>
         <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, recognizable pathogen necrotrophic effector present, host susceptibility locus compromised</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus compromised</rdfs:label>
     </owl:Class>
     
 
@@ -530,7 +530,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000031</oboInOwl:id>
         <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen necrotrophic effector present, functional host susceptibility locus present</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -544,7 +544,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000032</oboInOwl:id>
         <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, recognizable pathogen necrotrophic effector present, host susceptibility locus absent</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus absent</rdfs:label>
     </owl:Class>
     
 
@@ -558,7 +558,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000033</oboInOwl:id>
         <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen necrotrophic effector present, gain of host susceptibility locus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, functional pathogen necrotrophic effector present, gain of functional host susceptibility locus</rdfs:label>
     </owl:Class>
     
 
@@ -572,7 +572,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000034</oboInOwl:id>
         <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, recognizable pathogen necrotrophic effector absent, host susceptibility locus present</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector absent, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -585,7 +585,7 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000035</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, gain of recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, gain of functional pathogen necrotrophic effector, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -598,7 +598,7 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000036</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, gain of recognizable pathogen necrotrophic effector, host susceptibility locus compromised</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, gain of functional pathogen necrotrophic effector, functional host susceptibility locus compromised</rdfs:label>
     </owl:Class>
     
 
@@ -662,7 +662,7 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T12:36:59Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000041</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, compromised recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector compromised, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
