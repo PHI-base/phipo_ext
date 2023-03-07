@@ -285,6 +285,10 @@ creation_date: 2021-01-26T13:53:16Z
 id: PHIPO_EXT:0000031
 name: compatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus present
 def: "A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present)." []
+subset: qc_extension_only
+is_a: PHIPO_EXT:0000040 ! inverse gene-for-gene interaction phenotype
+created_by: alaynecuzick
+creation_date: 2021-01-26T13:53:16Z
 
 [Term]
 id: PHIPO_EXT:0000032

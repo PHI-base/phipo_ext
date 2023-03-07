@@ -524,8 +524,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000031 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000031">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000031</oboInOwl:id>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
