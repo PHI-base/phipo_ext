@@ -11,11 +11,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl">
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extension ontology for the Pathogen Host Interactions Phenotype Ontology (PHIPO), providing extra terms needed for curation.</dc:description>
-        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathogen Host Interactions Phenotype Ontology Extensions</dc:title>
+        <dc:description>Extension ontology for the Pathogen Host Interactions Phenotype Ontology (PHIPO), providing extra terms needed for curation.</dc:description>
+        <dc:title>Pathogen Host Interactions Phenotype Ontology Extensions</dc:title>
         <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</terms:license>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-07-09T13:43:00Z</oboInOwl:creation_date>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
+        <oboInOwl:creation_date>2018-07-09T13:43:00Z</oboInOwl:creation_date>
     </owl:Ontology>
     
 
@@ -99,12 +99,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype that affects the outcome of a gene-for-gene relationship in plant pathogen interactions. The gene-for-gene hypothesis follows that for each gene controlling resistance (R) in the host there is a corresponding gene controlling avirulence (avr) in the pathogen.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype that affects the outcome of a gene-for-gene relationship in plant pathogen interactions. The gene-for-gene hypothesis follows that for each gene controlling resistance (R) in the host there is a corresponding gene controlling avirulence (avr) in the pathogen.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000001</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene-for-gene interaction phenotype</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000001</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>gene-for-gene interaction phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -113,12 +113,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000002">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000002</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000002</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>compatible interaction</rdfs:label>
     </owl:Class>
     
 
@@ -127,12 +127,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000003">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000003</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000003</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction</rdfs:label>
     </owl:Class>
     
 
@@ -141,13 +141,13 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000004">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host resistance absent</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000004</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functional host resistance gene absent</rdfs:label>
+        <oboInOwl:hasExactSynonym>host resistance absent</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>PHIPO_EXT:0000004</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>functional host resistance gene absent</rdfs:label>
     </owl:Class>
     
 
@@ -156,13 +156,13 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000005">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of host resistance</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000005</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compromised host resistance gene</rdfs:label>
+        <oboInOwl:hasExactSynonym>loss of host resistance</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>PHIPO_EXT:0000005</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>compromised host resistance gene</rdfs:label>
     </owl:Class>
     
 
@@ -171,13 +171,13 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000006">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host resistance present</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000006</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functional host resistance gene present</rdfs:label>
+        <oboInOwl:hasExactSynonym>host resistance present</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>PHIPO_EXT:0000006</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>functional host resistance gene present</rdfs:label>
     </owl:Class>
     
 
@@ -186,14 +186,14 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000007">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000006"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gain of host resistance</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000007</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gain of function may result from engineering of a natural variant or transformation</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gain of functional host resistance gene</rdfs:label>
+        <oboInOwl:hasExactSynonym>gain of host resistance</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>PHIPO_EXT:0000007</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:comment>Gain of function may result from engineering of a natural variant or transformation</rdfs:comment>
+        <rdfs:label>gain of functional host resistance gene</rdfs:label>
     </owl:Class>
     
 
@@ -202,12 +202,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000008">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000008</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognizable pathogen effector absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000008</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>recognizable pathogen effector absent</rdfs:label>
     </owl:Class>
     
 
@@ -216,13 +216,13 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000009">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000008"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of recognizable pathogen effector</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000009</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compromised recognizable pathogen effector</rdfs:label>
+        <oboInOwl:hasExactSynonym>loss of recognizable pathogen effector</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>PHIPO_EXT:0000009</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>compromised recognizable pathogen effector</rdfs:label>
     </owl:Class>
     
 
@@ -231,12 +231,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000010">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000010</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recognizable pathogen effector present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000010</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>recognizable pathogen effector present</rdfs:label>
     </owl:Class>
     
 
@@ -245,12 +245,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000011">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000011</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_do_not_annotate</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gain of recognizable pathogen effector</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000011</oboInOwl:id>
+        <oboInOwl:inSubset>qc_do_not_annotate</oboInOwl:inSubset>
+        <rdfs:label>gain of recognizable pathogen effector</rdfs:label>
     </owl:Class>
     
 
@@ -259,12 +259,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000012">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000012</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen effector present, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000012</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>compatible interaction, recognizable pathogen effector present, functional host resistance gene absent</rdfs:label>
     </owl:Class>
     
 
@@ -273,12 +273,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000013">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000013</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen effector absent, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000013</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>compatible interaction, recognizable pathogen effector absent, functional host resistance gene present</rdfs:label>
     </owl:Class>
     
 
@@ -287,12 +287,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000014">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000014</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen effector present, compromised host resistance gene</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000014</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>compatible interaction, recognizable pathogen effector present, compromised host resistance gene</rdfs:label>
     </owl:Class>
     
 
@@ -300,12 +300,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000015 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000015">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000015</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete compatible interaction, recognizable pathogen effector present, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000015</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete compatible interaction, recognizable pathogen effector present, functional host resistance gene present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -314,12 +314,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000016 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000016">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000016</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete compatible interaction, gain of recognizable pathogen effector, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000016</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete compatible interaction, gain of recognizable pathogen effector, functional host resistance gene present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -328,12 +328,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000017 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000017">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. A phenotype where the ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000017</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete compatible interaction, gain of recognizable pathogen effector, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000017</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete compatible interaction, gain of recognizable pathogen effector, functional host resistance gene absent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -343,12 +343,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000018">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000018</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, recognizable pathogen effector present, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000018</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction, recognizable pathogen effector present, functional host resistance gene present</rdfs:label>
     </owl:Class>
     
 
@@ -357,12 +357,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000019">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000019</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, recognizable pathogen effector present, gain of functional host resistance gene</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000019</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction, recognizable pathogen effector present, gain of functional host resistance gene</rdfs:label>
     </owl:Class>
     
 
@@ -370,12 +370,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000020 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000020">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host, to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is abolished (resistance was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000020</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen effector present, compromised host resistance gene</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000020</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, recognizable pathogen effector present, compromised host resistance gene</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -384,12 +384,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000021 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000021">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to produce an infectious disease is abolished and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to produce an infectious disease is abolished and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000021</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000021</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -398,12 +398,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000022 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000022">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is present and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000022</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen effector present, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000022</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, recognizable pathogen effector present, functional host resistance gene absent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -412,12 +412,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000023 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000023">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000023</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, gain of recognizable pathogen effector, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000023</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, gain of recognizable pathogen effector, functional host resistance gene absent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -426,12 +426,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000024 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000024">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000024</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen effector absent, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000024</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, recognizable pathogen effector absent, functional host resistance gene present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -440,12 +440,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000025 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000025">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000025</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen effector absent, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000025</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, recognizable pathogen effector absent, functional host resistance gene absent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -454,12 +454,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000026 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000026">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000026</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen effector absent, gain of functional host resistance gene</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000026</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, recognizable pathogen effector absent, gain of functional host resistance gene</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -469,12 +469,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000027">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is acquired (recognition was absent and is now present) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene is acquired (resistance was absent and is now present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000027</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, gain of recognizable pathogen effector, gain of functional host resistance gene</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000027</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction, gain of recognizable pathogen effector, gain of functional host resistance gene</rdfs:label>
     </owl:Class>
     
 
@@ -482,12 +482,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000028 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000028">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-11T12:59:19Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000028</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000028</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete incompatible interaction, compromised recognizable pathogen effector, functional host resistance gene absent</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -496,12 +496,12 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000029 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000029">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present. (The presence of a functional pathogen effector is unknown due to a lack of data showing whether it is able to cause disease).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present. (The presence of a functional pathogen effector is unknown due to a lack of data showing whether it is able to cause disease).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T15:11:15Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000029</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete compatible interaction, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000029</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>obsolete compatible interaction, functional host resistance gene present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -511,12 +511,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000030">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is abolished (functional SL was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is abolished (functional SL was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000030</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus compromised</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000030</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus compromised</rdfs:label>
     </owl:Class>
     
 
@@ -525,12 +525,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000031">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000031</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000031</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>compatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -539,12 +539,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000032">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is absent (functional SL absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is absent (functional SL absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000032</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000032</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction, functional pathogen necrotrophic effector present, functional host susceptibility locus absent</rdfs:label>
     </owl:Class>
     
 
@@ -553,12 +553,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000033">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is acquired (functional SL was absent and is now present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is present (functional NE present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is acquired (functional SL was absent and is now present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T13:53:16Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000033</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, functional pathogen necrotrophic effector present, gain of functional host susceptibility locus</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000033</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>compatible interaction, functional pathogen necrotrophic effector present, gain of functional host susceptibility locus</rdfs:label>
     </owl:Class>
     
 
@@ -567,12 +567,12 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000034">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is absent (functional NE absent). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is absent (functional NE absent). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000034</oboInOwl:id>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qc_extension_only</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector absent, functional host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000034</oboInOwl:id>
+        <oboInOwl:inSubset>qc_extension_only</oboInOwl:inSubset>
+        <rdfs:label>incompatible interaction, functional pathogen necrotrophic effector absent, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -581,11 +581,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000035">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is acquired (functional NE was absent and is now present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is acquired (functional NE was absent and is now present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000035</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, gain of functional pathogen necrotrophic effector, functional host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000035</oboInOwl:id>
+        <rdfs:label>compatible interaction, gain of functional pathogen necrotrophic effector, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -594,11 +594,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000036">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is acquired (functional NE was absent and is now present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is abolished (functional SL was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is acquired (functional NE was absent and is now present). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is abolished (functional SL was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000036</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, gain of functional pathogen necrotrophic effector, functional host susceptibility locus compromised</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000036</oboInOwl:id>
+        <rdfs:label>incompatible interaction, gain of functional pathogen necrotrophic effector, functional host susceptibility locus compromised</rdfs:label>
     </owl:Class>
     
 
@@ -606,11 +606,11 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000037 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000037">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is present. The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is present. The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-27T15:44:11Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000037</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, recognizable pathogen necrotrophic effector present, host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000037</oboInOwl:id>
+        <rdfs:label>obsolete incompatible interaction, recognizable pathogen necrotrophic effector present, host susceptibility locus present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -619,11 +619,11 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000038 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000038">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is abolished (recognition was present and is now absent). The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is abolished (recognition was present and is now absent). The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-29T15:35:41Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000038</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, compromised recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000038</oboInOwl:id>
+        <rdfs:label>compatible interaction, compromised recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -632,11 +632,11 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000039 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000039">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is acquired (recognition was absent and is now present). The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector to be recognized by a specific host susceptibility locus is acquired (recognition was absent and is now present). The ability of a host to be susceptible to a pathogen, via the recognition of a pathogen necrotrophic effector by a specific host susceptibility locus, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-29T15:35:41Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000039</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete incompatible interaction, gain of recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000039</oboInOwl:id>
+        <rdfs:label>obsolete incompatible interaction, gain of recognizable pathogen necrotrophic effector, host susceptibility locus present</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -645,11 +645,11 @@
     <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype that affects the outcome of an inverse gene-for-gene relationship in plant pathogen interactions. The inverse gene-for-gene hypothesis follows that for each gene controlling susceptibility (susceptibility locus) in the host there is a corresponding gene (necrotrophic effector) in the pathogen. Recognition of the necrotrophic effector by the host susceptibility locus results in disease susceptibility (a compatible interaction).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype that affects the outcome of an inverse gene-for-gene relationship in plant pathogen interactions. The inverse gene-for-gene hypothesis follows that for each gene controlling susceptibility (susceptibility locus) in the host there is a corresponding gene (necrotrophic effector) in the pathogen. Recognition of the necrotrophic effector by the host susceptibility locus results in disease susceptibility (a compatible interaction).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-01T11:03:52Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000040</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inverse gene-for-gene interaction phenotype</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000040</oboInOwl:id>
+        <rdfs:label>inverse gene-for-gene interaction phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -658,11 +658,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000041">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is abolished (functional NE was present and is now absent). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the inverse gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen necrotrophic effector (NE) to interact with a specific host susceptibility locus is abolished (functional NE was present and is now absent). The ability of a specific functional host susceptibility locus (SL) to interact with the NE is present (functional SL present).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T12:36:59Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000041</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, functional pathogen necrotrophic effector compromised, functional host susceptibility locus present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000041</oboInOwl:id>
+        <rdfs:label>incompatible interaction, functional pathogen necrotrophic effector compromised, functional host susceptibility locus present</rdfs:label>
     </owl:Class>
     
 
@@ -671,11 +671,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000042">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to produce an infectious disease is acquired and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease resistance. The ability of a pathogen effector to produce an infectious disease is acquired and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T14:28:07Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000042</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incompatible interaction, gain of recognizable pathogen effector, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000042</oboInOwl:id>
+        <rdfs:label>incompatible interaction, gain of recognizable pathogen effector, functional host resistance gene present</rdfs:label>
     </owl:Class>
     
 
@@ -684,11 +684,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000043">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T14:28:07Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000043</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen effector absent, functional host resistance gene absent</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000043</oboInOwl:id>
+        <rdfs:label>compatible interaction, recognizable pathogen effector absent, functional host resistance gene absent</rdfs:label>
     </owl:Class>
     
 
@@ -697,11 +697,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000044">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is abolished (resistance was present and is now absent).</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is absent and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is abolished (resistance was present and is now absent).</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-08T13:21:07Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000044</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, recognizable pathogen effector absent, functional host resistance gene compromised</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000044</oboInOwl:id>
+        <rdfs:label>compatible interaction, recognizable pathogen effector absent, functional host resistance gene compromised</rdfs:label>
     </owl:Class>
     
 
@@ -710,11 +710,11 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000045">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is present.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-03T14:26:03Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000045</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compatible interaction, compromised recognizable pathogen effector, functional host resistance gene present</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000045</oboInOwl:id>
+        <rdfs:label>compatible interaction, compromised recognizable pathogen effector, functional host resistance gene present</rdfs:label>
     </owl:Class>
     
 
@@ -724,15 +724,28 @@
     <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000046">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathogen host interaction phenotype where either the gene-for-gene or inverse gene-for-gene relationship between the pathogen and plant host cannot be accurately recorded as the outcome is due to an external condition such as a change in temperature or light exposure.</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alaynecuzick</oboInOwl:created_by>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where either the gene-for-gene or inverse gene-for-gene relationship between the pathogen and plant host cannot be accurately recorded as the outcome is due to an external condition such as a change in temperature or light exposure.</obo:IAO_0000115>
+        <oboInOwl:created_by>alaynecuzick</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-29T14:28:01Z</oboInOwl:creation_date>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHIPO_EXT:0000046</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metagenotype outcome overcome by external condition</rdfs:label>
+        <oboInOwl:id>PHIPO_EXT:0000046</oboInOwl:id>
+        <rdfs:label>metagenotype outcome overcome by external condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000047 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000047">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/PHI-base/phipo_ext/master/phipo_ext.owl#PHIPO_EXT_0000001"/>
+        <obo:IAO_0000115>A pathogen host interaction phenotype where the gene-for-gene relationship between the pathogen and plant host results in disease susceptibility. The ability of a pathogen effector to be recognized by a specific host resistance gene is abolished (recognition was present and is now absent) and the ability of a host to be resistant to a pathogen, via the recognition of a pathogen effector by a specific host resistance gene, is absent.</obo:IAO_0000115>
+        <oboInOwl:created_by>changh</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-14T00:00:00Z</oboInOwl:creation_date>
+        <oboInOwl:id>PHIPO_EXT:0000047</oboInOwl:id>
+        <rdfs:label>compatible interaction, compromised recognizable pathogen effector, functional host resistance gene absent </rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
